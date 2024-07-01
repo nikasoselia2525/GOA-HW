@@ -1,8 +1,10 @@
+#ცვლადები   
 name = "nika"
 last_name = "soselia"
 age = 15
 hobby = "programming"
 country = "georgia"
+#დავპრინტე ცვლადები
 
 print(name)
 print(last_name)
@@ -10,7 +12,11 @@ print(age)
 print(hobby)
 print(country)
 
+#დავპრინტე ცვლადები ერთ წინადადებაში
+
 print("hello me name is " + name + ", my last name is " + last_name + ", my hobby is " + hobby + ", i live in " + country) 
+
+#მაგალითები
 
 print(5+5)
 print(10+23+40)
@@ -32,14 +38,3 @@ print(2**2)
 print(4**8)
 print(45**2)
 print(234**2)
-
-
-
-
-
-
-
-
-
-
-
