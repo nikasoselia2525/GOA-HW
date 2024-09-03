@@ -1,0 +1,14 @@
+div {
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-color: blue;
+    font-family: cursive;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    border: 15px solid black;
+    border-radius: 10%;
+}
