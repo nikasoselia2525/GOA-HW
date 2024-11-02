@@ -1,0 +1,1 @@
+print("homework on codewars!")

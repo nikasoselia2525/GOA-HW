@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: white;
+    color: inherit;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sedans {
+    background-color: orange;
+}
+
+.suvs {
+    background-color: rgb(0, 156, 253);
+}
+
+.luxury {
+    background-color: blue;
+}
