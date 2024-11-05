@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    transition: transform 0.3s;
+}
+
+.scale:hover {
+    transform: scale(1.5); 
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.translate:hover {
+    transform: translateX(50px);
+}
+
+.skew:hover {
+    transform: skew(20deg, 20deg);
+}
