@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fade-text {
+    font-size: 24px;
+    color: rgb(63, 63, 63);
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.fade-text:hover {
+    opacity: 1;
+}
