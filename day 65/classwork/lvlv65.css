@@ -1,0 +1,47 @@
+
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header a {
+    color: orange;
+}
+
+.testimonials {
+    background-color: white;
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.rating {
+    color: yellow;
+}
+
+.image-grid {
+    text-align: center;
+}
+
+.image-grid h2 {
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid img {
+    max-width: 100%;
+    border-radius: 8px;;
+    box-shadow: dimgray;
+}

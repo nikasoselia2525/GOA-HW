@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    height: 100vh;
+}
+
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 50px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.box:hover {
+    animation: moveSquare 4s ease-in-out infinite;
+}
+
+
+@keyframes moveSquare {
+    0% {
+        left: 0;
+        top: 50px;
+    }
+    25% {
+        left: 200px;
+        top: 50px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 50px;
+    }
+}
