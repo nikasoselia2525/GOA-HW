@@ -1,0 +1,96 @@
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-card {
+    background: black;
+    color: white;
+    width: 90%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px darkslategrey;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-size: 1rem;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background: darkslategrey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        width: 100%;
+    }
+
+    .profile-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
