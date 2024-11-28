@@ -1,0 +1,44 @@
+:root {
+    --primary: purple;
+    --secondary: blue;
+    --text: black;
+    --radius: 20px;
+    --shadow: 0 4px 10px black;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+    color: var(--text);
+}
+
+.right h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-size: 1rem;
+    line-height: 1.5;
+}

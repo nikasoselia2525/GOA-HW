@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-areas:
+      "header header header header"
+      "aside sec1 sec2 sec3"
+      "aside content content content"
+      "footer footer footer footer";
+    grid-template-rows: 100px 1fr 2fr 100px;
+    grid-template-columns: 150px 1fr 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aside {
+    grid-area: aside;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sec1 {
+    grid-area: sec1;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sec2 {
+    grid-area: sec2;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sec3 {
+    grid-area: sec3;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    grid-area: content;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

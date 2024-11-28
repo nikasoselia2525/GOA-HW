@@ -1,0 +1,14 @@
+div {
+    height: 400px;
+    width: 400px;
+    color: orangered;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Euro_coins_and_banknotes_%28cropped%29.jpg/330px-Euro_coins_and_banknotes_%28cropped%29.jpg);
+    font-family: cursive;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    border: 15px solid blue;
+    border-radius: 10%;
+}

@@ -1,0 +1,19 @@
+.div {
+    height: 400px;
+    width: 400px;
+    color: orangered;
+    background-color: cadetblue;
+    font-family: cursive;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    border: 15px solid blue;
+    border-radius: 10%;
+}
+
+/* repeat - ამეორებს სურათს მანამ სანამ ეკრანი ბლომდე არ აივსება */
+/* no-repeat - არ ამეორებს სურათს */
+/* repeat-x - ამეორებს ჰორიზონტალურად */
+/* repeat-y - ამეორებს ვერტიკალურად */

@@ -1,0 +1,1 @@
+print("classwork was in codewars")
