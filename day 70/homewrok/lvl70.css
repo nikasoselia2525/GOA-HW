@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar content-1 content-2"
+        "sidebar content-3 content-4"
+        "sidebar navigation navigation";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    height: 100vh;
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation {
+    grid-area: navigation;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1 {
+    grid-area: content-1;
+    background-color: orange;
+}
+
+.content-2 {
+    grid-area: content-2;
+    background-color: red;
+}
+
+.content-3 {
+    grid-area: content-3;
+    background-color: red;
+}
+
+.content-4 {
+    grid-area: content-4;
+    background-color: orange;
+}

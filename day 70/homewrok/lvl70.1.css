@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "red red orange"
+        "teal1 teal2 orange";
+    grid-template-columns: 2fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.red {
+    grid-area: red;
+    background-color: red;
+}
+
+.teal-1 {
+    grid-area: teal1;
+    background-color: cyan;
+}
+
+.teal-2 {
+    grid-area: teal2;
+    background-color: cyan;
+}
+
+.orange {
+    grid-area: orange;
+    background-color: orange;
+}
