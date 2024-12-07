@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: gray;
+}
+
+header {
+    background: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color:blue;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.about h2 {
+    color: gray;
+}
+
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.skills h2 {
+    color: gray;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: linear-gradient(to right, blue, lightseagreen);
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+}

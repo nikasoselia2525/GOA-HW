@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: gray;
+}
+  
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+header {
+    background: gray;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.nav-links a {
+    color: white;
+    font-weight: bold;
+}
+  
+.nav-links a:hover {
+    color: blue;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 50px;
+}
