@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <textarea id="textInput" rows="5" cols="50" placeholder="Type your text here..."></textarea>
+    <script>
+        function showAlert() {
+            let text = document.getElementById("textInput").value;
+            let trimmedText = text.slice(0, 140);
+            alert(trimmedText);
+        }
+    </script>
+</body>
+</html>
+
