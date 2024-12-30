@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Checker</title>
+</head>
+<body>
+    <script>
+        let score = parseInt(prompt("Enter your score (0-100):"));
+
+        if (isNaN(score) || score < 0 || score > 100) {
+            alert("Please enter your real score between 0 and 100.");
+        } else if (score >= 90) {
+            alert("Your grade is: A");
+        } else if (score >= 80) {
+            alert("Your grade is: B");
+        } else if (score >= 70) {
+            alert("Your grade is: C");
+        } else if (score >= 60) {
+            alert("Your grade is: D");
+        } else {
+            alert("Your grade is: F");
+        }
+    </script>
+</body>
+</html>
