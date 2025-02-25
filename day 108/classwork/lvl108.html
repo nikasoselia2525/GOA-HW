@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time Manipulation</title>
+</head>
+<body>
+    <h2>Current Date and Time:</h2>
+    <p id="currentTime"></p>
+
+    <h2>Updated Date and Time:</h2>
+    <p id="updatedTime"></p>
+
+    <script>
+        function displayDateTime() {
+            let now = new Date();
+            document.getElementById("currentTime").textContent = now.toLocaleString();
+
+            now.setDate(now.getDate() + 3);
+            now.setHours(now.getHours() + 5);
+
+            document.getElementById("updatedTime").textContent = now.toLocaleString();
+        }
+
+        displayDateTime();
+    </script>
+</body>
+</html>
