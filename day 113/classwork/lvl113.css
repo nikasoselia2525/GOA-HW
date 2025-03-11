@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#resizableDiv {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: width 0.3s, height 0.3s;
+}

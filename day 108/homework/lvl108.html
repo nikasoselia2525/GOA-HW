@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delayed Message</title>
+</head>
+<body>
+
+    <h2>Set a Delayed Message</h2>
+    <input type="text" id="message" placeholder="Enter your message">
+    <input type="number" id="delay" placeholder="Enter delay (ms)">
+    <button onclick="showDelayedMessage()">Display</button>
+    <p id="output"></p>
+
+    <script>
+        const showDelayedMessage = () => {
+            let msg = document.getElementById("message").value;
+            let delay = parseInt(document.getElementById("delay").value);
+            if (!msg || isNaN(delay) || delay < 0) return alert("Enter a valid message and delay!");
+
+            setTimeout(() => document.getElementById("output").textContent = msg, delay);
+        };
+    </script>
+
+</body>
+</html>
