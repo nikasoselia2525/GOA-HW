@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Input Text & Random Color</title>
+<link rel="stylesheet" href="lvl114.css">
+</head>
+<body>
+    <h1 id="displayText">Enter text and click the button</h1>
+    <input type="text" id="userInput" placeholder="Enter text">
+    <button onclick="displayText()">Show Text</button>
+
+    <button onclick="changeColor()">Change Color</button>
+    <div id="colorBox"></div>
+
+    <script>
+        function displayText() {
+            const input = document.getElementById('userInput').value;
+            const display = document.getElementById('displayText');
+
+            if (input.trim() !== "") {
+                display.textContent = input;
+            } else {
+                alert('Please enter some text.');
+            }
+        }
+
+        function changeColor() {
+            const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+            document.getElementById('colorBox').style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>

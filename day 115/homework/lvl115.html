@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>document</title>
+</head>
+<body>
+    <h1 id="displayText">Enter text and click the button</h1>
+    <input type="text" id="userInput" placeholder="Enter text">
+    <button onclick="displayText()">Show Text</button>
+
+    <button onclick="changeColor()">Change Color</button>
+    <div id="colorBox"></div>
+
+    <div id="slider" onmouseover="pauseSlider()" onmouseout="startSlider()">
+        <div class="slide active"><img src="" alt="Image 1"></div>
+        <div class="slide"><img src="" alt="Image 2"></div>
+        <div class="slide"><img src="" alt="Image 3"></div>
+    </div>
+    <div class="dots">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <script src="lvl115.js"></script>
+</body>
+</html>

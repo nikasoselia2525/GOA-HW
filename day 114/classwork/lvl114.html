@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="displayText">Enter text and click the button</h1>
+    <input type="text" id="userInput" placeholder="Enter text">
+    <button onclick="displayText()">Show Text</button>
+
+    <script>
+        function displayText() {
+            const input = document.getElementById('userInput').value;
+            const display = document.getElementById('displayText');
+
+            if (input.trim() !== "") {
+                display.textContent = input;
+            } else {
+                alert('Please enter some text.');
+            }
+        }
+    </script>
+</body>
+</html>
